@@ -1,6 +1,7 @@
 def captcha_sum(captcha):
     # define sum and set it to nada
     sum = 0
+    #define length and half_length - not necessary but makes it look a bit nicer
     length = len(captcha)
     half_length = len(captcha)//2
 
@@ -15,5 +16,4 @@ def captcha_sum(captcha):
             sum += int(captcha[index])
         index = index + 1
 
-    # return sum
     return sum

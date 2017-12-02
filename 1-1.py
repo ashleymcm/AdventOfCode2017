@@ -13,5 +13,4 @@ def captcha_sum(captcha):
             sum += int(captcha[index])
         index = index + 1
 
-    # return sum
     return sum
