@@ -15,4 +15,4 @@ def check_valid_passwords():
 
     return count
 
-print(check_valid_passwords())
+check_valid_passwords()
