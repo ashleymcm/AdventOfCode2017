@@ -15,4 +15,4 @@ def how_many_steps():
     return count
 
 
-print(how_many_steps())
+how_many_steps()
